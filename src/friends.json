@@ -1,0 +1,178 @@
+[
+  {
+    "id": 1,
+    "name": "Aragorn",
+    "image": "http://www-images.theonering.org/torwp/wp-content/uploads/2013/07/Aragorn_2_-_FOTR.png",
+    "occupation": "King of Gondor",
+    "location": "Beneath the white tree",
+    "coolness": 60
+  },
+  {
+    "id": 2,
+    "name": "Arwen",
+    "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2F2DVke9JKY7I%2Fhqdefault.jpg&f=1&nofb=1",
+    "occupation": "Elf Maiden",
+    "location": "The Grey Lands",
+    "coolness": 100
+  },
+  {
+    "id": 3,
+    "name": "Bilbo",
+    "image": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2F3.bp.blogspot.com%2F-TEw6G10dil4%2FUa-l21gHOsI%2FAAAAAAAAAlM%2F1KmZ2V9JqpI%2Fs1600%2Fmartin-freeman-bilbo-baggins-the-hobbit-pic3.jpg&f=1&nofb=1",
+    "occupation": "Burglar",
+    "location": "Bag end", 
+    "coolness": 45
+  },
+  {
+    "id": 4,
+    "name": "Boromir",
+    "image": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.angelfire.com%2Ffalcon%2Fstriderfan24%2Fimages%2Fboromir.jpg&f=1&nofb=1",
+    "occupation": "Knight of Gondor",
+    "location": "Left thim in the woods",
+    "coolness": 50
+  },
+  {
+    "id": 5,
+    "name": "Denathor",
+    "image": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww-images.theonering.org%2Ftorwp%2Fwp-content%2Fuploads%2F2015%2F06%2Fdenethor.png&f=1&nofb=1",
+    "occupation": "Falling ball of fire",
+    "location": "Last seen falling",
+    "coolness": 0
+  },
+  {
+    "id": 6,
+    "name": "Elrond",
+    "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fhenryherz.files.wordpress.com%2F2013%2F05%2Felrond.jpg&f=1&nofb=1",
+    "occupation": "Ruler of Rivendale",
+    "location": "Rivendale",
+    "coolness": 34
+  },
+  {
+    "id": 7,
+    "name": "Eomer",
+    "image": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fkayedacus.files.wordpress.com%2F2013%2F02%2F2-eomer.jpg&f=1&nofb=1",
+    "occupation": "Rider of Rohon",
+    "location": "Horseback",
+    "coolness": 55
+  },
+  {
+    "id": 8,
+    "name": "Éowyn",
+    "image": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fappellationmountain.net%2Fwp-content%2Fuploads%2F2013%2F02%2FEowyn.jpg&f=1&nofb=1",
+    "occupation": "Knight of Gondor (though she is no man)",
+    "location": "Gondor",
+    "coolness": 55
+  },
+  {
+    "id": 9,
+    "name": "Faramir",
+    "image": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.thefilteredlens.com%2Fwp-content%2Fuploads%2F2012%2F12%2Ffaramir.jpg&f=1&nofb=1",
+    "occupation": "Captain of Gondor",
+    "location": "Gondor",
+    "coolness": 60
+  },
+  {
+    "id": 10,
+    "name": "Frodo ",
+    "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fdonotavoidthecelluloid.files.wordpress.com%2F2012%2F02%2Ffrodo4.jpg&f=1&nofb=1",
+    "occupation": "Carrier of the One Ring",
+    "location": "The Grey Lands",
+    "coolness": 59
+  },
+  {
+    "id": 11,
+    "name": "Galadriel ",
+    "image": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fsonailicious.com%2Fwp-content%2Fuploads%2F2014%2F10%2FGaladriel-from-The-Lord-of-the-Rings.jpg&f=1&nofb=1",
+    "occupation": "Sorceress",
+    "location": "The woods of Lothlórien",
+    "coolness": 60
+  },
+  {
+    "id": 12,
+    "name": "Gandalf",
+    "image": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fnerdreactor.com%2Fwp-content%2Fuploads%2F2012%2F09%2Fthe-hobbit-gandalf.jpg&f=1&nofb=1",
+    "occupation": "The White Wizard",
+    "location": "Precicely where he intends to be",
+    "coolness": 75
+  },
+  {
+    "id": 13,
+    "name": "Gimli",
+    "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.INWNAKL-FvLPRUuKqlkFAgHaFj%26pid%3DApi&f=1",
+    "occupation": "Member of The Fellowship",
+    "location": "The Greylands",
+    "coolness": 60
+  },
+  {
+    "id": 14,
+    "name": "Gollum ",
+    "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP._GUt-21DpfGP2B8g40fHBwHaKS%26pid%3DApi&f=1",
+    "occupation": "A hobbit once",
+    "location": "Turned to lava",
+    "coolness": 4
+  },
+  {
+    "id": 15,
+    "name": "Haldir",
+    "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.4s3zMKJ-dpFwjuID5Elb0wHaGD%26pid%3DApi&f=1",
+    "occupation": "Marchwarden of Lorien",
+    "location": "Lorien", 
+    "coolness": 45
+  },
+  {
+    "id": 16,
+    "name": "Legolas ",
+    "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.XAytGJMJGNOEgL5nhY3lJQHaFO%26pid%3DApi&f=1",
+    "occupation": "Member of the Fellowship",
+    "location": "The greylands",
+    "coolness": 60
+  },
+  {
+    "id": 17,
+    "name": "Merry ",
+    "image": "https://iampierremenard.files.wordpress.com/2012/07/merry3.jpg",
+    "occupation": "Member of the Fellowship",
+    "location": "The Shire",
+    "coolness": 45
+  },
+  {
+    "id": 18,
+    "name": "Pippin ",
+    "image": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fimages2.fanpop.com%2Fimages%2Fpolls%2F102763_1217636562833_full.jpg&f=1&nofb=1",
+    "occupation": "Member of the Fellowship",
+    "location": "The Shire",
+    "coolness": 45
+  },
+  {
+    "id": 19,
+    "name": "Sam ",
+    "image": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fimg3.wikia.nocookie.net%2F__cb20070623123241%2Flotr%2Fimages%2F2%2F20%2FSam.jpg&f=1&nofb=1",
+    "occupation": "Hero",
+    "location": "The Greylands",
+    "coolness": 100
+  },
+  {
+    "id": 20,
+    "name": "Saruman ",
+    "image": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fi1.wp.com%2Fwww.tor.com%2Fwp-content%2Fuploads%2F2015%2F07%2FLOTR-saruman.jpg%3Ffit%3D740%252C%25209999%26crop%3D0%252C0%252C100%252C385px&f=1&nofb=1",
+    "occupation": "Traitor to the Maiar",
+    "location": "Shallow grave",
+    "coolness": 0
+  },
+  {
+    "id": 21,
+    "name": "Théoden ",
+    "image": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.thefilteredlens.com%2Fwp-content%2Fuploads%2F2012%2F12%2FTheoden.jpg&f=1&nofb=1",
+    "occupation": "King of Rohan",
+    "location": "A kings grave",
+    "coolness": 60
+  },
+  {
+    "id": 22,
+    "name": "Treebeard",
+    "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.-2GU5uJeW5-HaUo8kwCmQQHaJq%26pid%3DApi&f=1",
+    "occupation": "Shepard of the Forrest",
+    "location": "Looking for the Ent wives",
+    "coolness": 59
+  }
+]
