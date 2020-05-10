@@ -1,8 +1,8 @@
 import React from "react";
 import "./style.css";
 
-function FriendCard(props) {
-  return (
+function EmployeeCard(props) {
+  return ( 
     <div className="card">
       <div className="img-container">
         <img alt={props.name} src={props.image} />
@@ -23,11 +23,12 @@ function FriendCard(props) {
           </li>
         </ul>
       </div>
-      <span onClick={() => props.removeFriend(props.id)} className="remove">
+      <span onClick={() => props.removeEmployee(props.id)} className="remove">
         𝘅
       </span>
+      
     </div>
   );
 }
 
-export default FriendCard;
+export default EmployeeCard;

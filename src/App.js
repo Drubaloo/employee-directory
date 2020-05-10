@@ -1,44 +1,55 @@
 import React, { Component } from "react";
-import FriendCard from "./components/FriendCard";
+import EmployeeCard from "./components/EmployeeCard";
 import Wrapper from "./components/Wrapper";
 import Title from "./components/Title";
-import friends from "./friends.json";
-import Buttons from "./components/buttons"
+import employees from "./employees.json";
+import FilterEmployee from "./components/buttons/filterEmployee"
 
 class App extends Component {
-  // Setting this.state.friends to the friends json array
+  // Setting this.state.employees to the employees json array
   state = {
-    friends
+    employees
   };
 
-  removeFriend = id => {
-    // Filter this.state.friends for friends with an id not equal to the id being removed
-    const friends = this.state.friends.filter(friend => friend.id !== id);
-    // Set this.state.friends equal to the new friends array
-    this.setState({ friends });
+  removeEmployee = id => {
+    // Filter this.state.employees for employees with an id not equal to the id being removed
+    const employees = this.state.employees.filter(employee => employee.id !== id);
+    // Set this.state.employees equal to the new employees array
+   
+    this.setState({ employees });
   };
 
-  filterEmployee = id => {
-    const friends = this.state.friends.filter(friend => friend.coolness <= 50)
-    this.setState({friends})
+  filterEmployees = coolness => {
+    const employees = this.state.employees.filter(employee => employee.coolness >= 50)
+    console.log(employees)
+    this.setState({ employees })
   }
 
-  // Map over this.state.friends and render a FriendCard component for each friend object
+  sortEmployees = cooless => {
+    const employees = this.state.employees.sort((x, y) => y.coolness - x.coolness)
+
+    this.setState({ employees})
+  }
+
+  // Map over this.state.employees and render a EmployeeCard component for each employee object
   render() {
     return (
       <Wrapper>
-        <Title>Middle Earth Employees</Title>
-        <Buttons/>
-        {this.state.friends.map(friend => (
-          <FriendCard
-            removeFriend={this.removeFriend}
-            id={friend.id}
-            key={friend.id}
-            name={friend.name}
-            image={friend.image}
-            occupation={friend.occupation}
-            location={friend.location}
-            coolness={friend.coolness}
+        <Title>Middle Earth Employees<FilterEmployee 
+        filterEmployee={this.filterEmployees}
+        sortEmployee={this.sortEmployees} /></Title>
+        
+        {this.state.employees.map(employee => (
+          <EmployeeCard
+            
+            removeEmployee={this.removeEmployee}
+            id={employee.id}
+            key={employee.id}
+            name={employee.name}
+            image={employee.image}
+            occupation={employee.occupation}
+            location={employee.location}
+            coolness={employee.coolness}
           />
         ))}
       </Wrapper>
