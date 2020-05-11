@@ -8,3 +8,19 @@ html, body, #root {
   margin: 0;
   height: 100%;
 }
+
+.wrapper{
+  background: #003d14;
+background:
+linear-gradient(115deg, transparent 75%, #00551c 75%) 0 0,
+linear-gradient(245deg, transparent 75%, #00551c 75%) 0 0,
+linear-gradient(115deg, transparent 75%, #00551c 75%) 7px -15px,
+linear-gradient(245deg, transparent 75%, #00551c 75%) 7px -15px,
+#003d14;
+background-size: 15px 30px;
+  
+}
+
+.title{
+  color: black;
+}
