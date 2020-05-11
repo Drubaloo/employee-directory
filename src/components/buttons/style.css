@@ -1,5 +1,6 @@
 button{
     background-color: #686767;
-    border-radius: 110% 40% 40% 110%;
-    
+    border-radius: 100% 50% 50% 100%;
+    color: white;
+    text-shadow: .02rem .02rem 2rem black;
 }

@@ -23,4 +23,5 @@ background-size: 15px 30px;
 
 .title{
   color: black;
+  text-shadow: .02rem .02rem .5rem white;
 }
