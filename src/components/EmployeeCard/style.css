@@ -13,7 +13,14 @@
   height: 60%;
   overflow: hidden;
   text-align: center;
-  background:rgb(0, 8, 1);
+  background: #2c1c13;
+background:
+linear-gradient(115deg, transparent 75%, #241c0c 75%) 0 0,
+linear-gradient(245deg, transparent 75%, #241c0c 75%) 0 0,
+linear-gradient(115deg, transparent 75%, #241c0c 75%) 7px -15px,
+linear-gradient(245deg, transparent 75%, #241c0c 75%) 7px -15px,
+#2c1c13;
+background-size: 15px 30px;
 }
 .card > .img-container > img {
   width: 60%
@@ -44,4 +51,8 @@
 
 .card > .remove:hover {
   color: #d50000;
+}
+
+img{
+  margin-top: 2rem;
 }

@@ -10,14 +10,9 @@ html, body, #root {
 }
 
 .wrapper{
-  background: #003d14;
-background:
-linear-gradient(115deg, transparent 75%, #00551c 75%) 0 0,
-linear-gradient(245deg, transparent 75%, #00551c 75%) 0 0,
-linear-gradient(115deg, transparent 75%, #00551c 75%) 7px -15px,
-linear-gradient(245deg, transparent 75%, #00551c 75%) 7px -15px,
-#003d14;
-background-size: 15px 30px;
+  background-image: url("https://images.unsplash.com/photo-1510218830377-2e994ea9087d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2352&q=80");
+  background-size: cover;
+  /*  */
   
 }
 
