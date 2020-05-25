@@ -17,7 +17,7 @@ React, JS, CSS
 - added sorting and filtering functions
 - added styling to the main page
 
-
+![Image of Preview](./preview.png)
 
 ## I love getting feedback and support! 🎆🎇🎈
 
